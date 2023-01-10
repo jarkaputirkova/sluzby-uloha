@@ -10,7 +10,7 @@ html {
 body {
   background-color: #fafafa;
   margin: 0;
-  font-family: "Montserrat"
+  font-family: "Montserrat";
 }
 
 .intro {
@@ -19,66 +19,65 @@ body {
   align-items: center;
 }
 
-.intro-obsah{
+.intro-obsah {
   text-align: center;
 }
 
-.cestovatel{
+.cestovatel {
   margin-top: 60px;
-  max-width: 100%;
-
+  max-width: 350px;
 }
 
-.hlavny-nadpis{
-  margin-top:40px;
+.hlavny-nadpis {
+  margin-top: 40px;
   margin-bottom: 10px;
 }
 
-.ciara{
+.ciara {
   height: 2px;
   width: 60px;
-  background-color: #407BFF;
+  background-color: #407bff;
   margin-left: auto;
   margin-right: auto;
 }
 
-.odsek1{
+.odsek1 {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.tlacitka{
+.tlacitka {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.tlacitko{
+.tlacitko {
   text-decoration: none;
-  color: white
+  color: white;
 }
 
-.tlacitko1{
+.tlacitko1 {
   padding: 11px 31px;
-  background-color: #407BFF;
+  background-color: #407bff;
   border-radius: 20px;
   margin-bottom: 10px;
 }
 
-.tlacitko2{
+.tlacitko2 {
   padding: 11px 31px;
-  background-color: #8B8B8B;
+  background-color: #8b8b8b;
   border-radius: 20px;
 }
 
-.sluzby{
+.sluzby {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.text{
-  color:#8B8B8B;
+.text {
+  color: #8b8b8b;
   font-size: 16px;
   font-weight: 300;
   margin-bottom: 28px;
@@ -88,23 +87,23 @@ body {
   margin-right: auto;
 }
 
-.nadpis{
+.nadpis {
   text-align: center;
   margin: 60px auto 15px auto;
 }
 
-.veta{
+.veta {
   font-size: 13px;
-  color: #8B8B8B;
+  color: #8b8b8b;
   font-weight: 300;
   margin: 32px 20px 20px 0;
 }
 
-.ikona{
+.ikona {
   display: flex;
   justify-content: flex-start;
-  background-color: #FFFFFF;
-  box-shadow: 0px 4px 6px #407BFF1F;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px #407bff1f;
   border-radius: 10px;
   margin: 0 0 15px 0;
   align-items: center;
@@ -112,14 +111,63 @@ body {
   width: 100%;
 }
 
-.ikonka{
+.ikonka {
   padding: 20px 29px 20px 20px;
 }
 
-.ikonicky{
+.ikonicky {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .cestovatel {
+    max-width: 400px;
+  }
 
+  h1 {
+    font-size: 21px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  .tlacitka {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tlacitko1 {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+
+  .ikonicky {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .ikonka{
+    padding: 40px 0 0 0;
+  }
+
+  .ikona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: calc((100% - 40px) / 3);
+    max-width: 230px;
+  }
+
+  .veta{
+    text-align: center;
+    max-width: 201px;
+    margin: 21px 15px;
+  }
+
+
+
+}
