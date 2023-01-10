@@ -70,7 +70,8 @@ body {
   border-radius: 20px;
 }
 
-.sluzby {
+.sluzby,
+.delegati {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -149,8 +150,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
   }
-  
-  .ikonka{
+
+  .ikonka {
     padding: 40px 0 0 0;
   }
 
@@ -162,12 +163,90 @@ body {
     max-width: 230px;
   }
 
-  .veta{
+  .veta {
     text-align: center;
     max-width: 201px;
     margin: 21px 15px;
   }
+}
 
+@media screen and (min-width: 1200px) {
+  body {
+    width: 1040px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
+  .cestovatel {
+    max-width: 425px;
+  }
+
+  .intro {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .intro-obsah {
+    order: -1;
+    text-align: left;
+  }
+
+  .odsek1 {
+    text-align: left;
+    margin-left: 0;
+    max-width: 488px;
+  }
+
+  .ciara {
+    margin: 0;
+  }
+
+  .sluzby,
+  .delegati {
+    flex-direction: row;
+  }
+
+  .sluzby-s-textom,
+  .delegati-s-textom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ikonky1 {
+    order: -1;
+    margin-top: 80px;
+  }
+
+  .nadpis,
+  .text {
+    text-align: left;
+  }
+
+  .text-sluzby {
+    margin-left: 60px;
+    margin-top: 0px;
+    max-width: 430px;
+  }
+
+  .ikonky2 {
+    margin-top: 80px;
+  }
+
+  .veta {
+    margin: 20px 16px 40px 14px;
+    padding: 0;
+    max-width: 140px;
+    font-size: 13px;
+  }
+
+  .text-delegati{
+    margin-right: 30px;
+    max-width: 430px;
+  }
+  /* 30px preto, lebo tam je ešte ako keby šírka toho viac o 30px tak som dala+30 to je psolu 60px */
+
+.nadpis-sluzby{
+  margin-left: 60px;
+}
 
 }
