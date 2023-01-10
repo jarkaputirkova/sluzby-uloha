@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  ::before,
+  ::after {
+    box-sizing: inherit;
+  }
+
+  body{
+    background-color: #FAFAFA;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+
+  }
+
+  .obazok{
+    display: flex;
+  }
+  .cestovatel{
+    justify-content:center;
+    max-width: 350px;
+    max-height: 290px;
+
+  }
+
