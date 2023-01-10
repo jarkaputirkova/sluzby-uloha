@@ -40,8 +40,6 @@ body {
   background-color: #407BFF;
   margin-left: auto;
   margin-right: auto;
-  margin-top:0;
-  margin-bottom: 0;
 }
 
 .odsek1{
@@ -73,7 +71,7 @@ body {
   border-radius: 20px;
 }
 
-.služby{
+.sluzby{
   display: flex;
   flex-direction: column;
   align-items: center;
