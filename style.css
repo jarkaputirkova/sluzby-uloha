@@ -1,27 +1,121 @@
 html {
-    box-sizing: border-box;
-  }
-  *,
-  ::before,
-  ::after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
 
-  body{
-    background-color: #FAFAFA;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    
+body {
+  background-color: #fafafa;
+  margin: 0;
+  font-family: "Montserrat"
+}
 
-  }
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .obazok{
-    display: flex;
-  }
-  .cestovatel{
-    justify-content:center;
-    max-width: 350px;
-    max-height: 290px;
+.intro-obsah{
+  text-align: center;
+}
 
-  }
+.hlavny-nadpis{
+  margin-top:40px;
+  margin-bottom: 10px;
+}
+
+.ciara{
+  height: 2px;
+  width: 60px;
+  background-color: #407BFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+.odsek1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tlacitka{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tlacitko{
+  text-decoration: none;
+  color: white
+}
+
+.tlacitko1{
+  padding: 11px 31px;
+  background-color: #407BFF;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.tlacitko2{
+  padding: 11px 31px;
+  background-color: #8B8B8B;
+  border-radius: 20px;
+}
+
+.služby{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text{
+  color:#8B8B8B;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 28px;
+  max-width: 460px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nadpis{
+  text-align: center;
+  margin: 60px auto 15px auto;
+}
+
+.veta{
+  font-size: 13px;
+  color: #8B8B8B;
+  font-weight: 300;
+  margin: 32px 20px 20px 0;
+}
+
+.ikona{
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 6px #407BFF1F;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+  width: 460px;
+  height: 80px;
+}
+
+.ikonka{
+  padding: 40px;
+}
+
+.ikonicky{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
