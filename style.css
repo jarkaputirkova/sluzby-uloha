@@ -23,6 +23,12 @@ body {
   text-align: center;
 }
 
+.cestovatel{
+  margin-top: 60px;
+  max-width: 100%;
+
+}
+
 .hlavny-nadpis{
   margin-top:40px;
   margin-bottom: 10px;
@@ -98,18 +104,18 @@ body {
 
 .ikona{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #FFFFFF;
   box-shadow: 0px 4px 6px #407BFF1F;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin: 0 0 15px 0;
   align-items: center;
-  width: 460px;
-  height: 80px;
+  max-width: 460px;
+  width: 100%;
 }
 
 .ikonka{
-  padding: 40px;
+  padding: 20px 29px 20px 20px;
 }
 
 .ikonicky{
